@@ -1,0 +1,22 @@
+package app;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		
+		Jogador j1 = new Jogador(); // chama o construtor sem parametros
+		
+		j1.setNome("Alexandre de Souza");
+		j1.setTelefone("61-99356-2526");
+		j1.setEmail("alex@gmail.com");
+		j1.setSexo("Masculino");
+		
+		j1.Info();
+		
+	}
+}

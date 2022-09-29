@@ -1,0 +1,43 @@
+package app;
+
+public class Titular extends Jogador {
+	
+	private double contrato;
+	private int TempoContrato;
+	private boolean Emprestado;
+	
+	
+	public double getContrato() {
+		return contrato;
+	}
+	
+	public void setContrato(double contrato) {
+		this.contrato = contrato;
+	}
+	
+	public int getTempoContrato() {
+		return TempoContrato;
+	}
+	
+	public void setTempoContrato(int tempoContrato) {
+		TempoContrato = tempoContrato;
+	}
+	
+	public boolean isEmprestado() {
+		return Emprestado;
+	}
+	
+	public void setEmprestado(boolean emprestado) {
+		Emprestado = emprestado;
+	}
+
+	public static void Info() {
+		
+		Titular t = new Titular();
+		
+		System.out.println("\n::......  Dados Jogador  .....::\n");
+		System.out.printf("Valor de Contrato: %d", t.contrato );
+		System.out.printf("Tempo de Contrato: %d", t.TempoContrato);
+		System.out.printf("Emprestado de outro time? %b", t.Emprestado);
+	}	
+}

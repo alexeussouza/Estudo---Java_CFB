@@ -1,0 +1,37 @@
+package app;
+
+import java.util.Arrays;
+
+public class Aula07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final int tam = 10;
+		
+		int p=3;
+		
+		int[] num= {9,2,7,1,8,5,3,4,0,6};
+		
+		int[] num2 = new int[tam]; 
+		
+		for (int n : num) {
+			System.out.printf("\n%d", n);
+		}
+		
+		System.out.println("\n");
+		
+		Arrays.sort(num); // metodo para ordenação de elementos de um array
+		//Arrays.fill(num, 10); // preeche o vetor com valor 10 em todas posições
+		System.arraycopy(num, 0, num2, 0, tam); // vetor de origem, posição de copia na origem, vetor de destino, quantidade posições
+		// Arrays.equals(num, num2) faz a comparação entre dois vetores e retorna true se foram iguais
+		
+		System.out.printf("\nValor da comparacao: %s ", Arrays.equals(num, num2) ? "Verdadeiro" : "Falso"); 
+		
+		System.out.printf("\nO elemento %d esta no array? %s", p, Arrays.binarySearch(num, p) > 0 ? "Está no array" : "Não está no array"); 
+		
+		for (int n : num2) {
+			System.out.printf("\n%d", n);
+		}
+	}
+}

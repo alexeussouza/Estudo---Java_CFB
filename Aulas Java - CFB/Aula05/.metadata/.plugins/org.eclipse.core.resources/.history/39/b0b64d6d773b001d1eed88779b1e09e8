@@ -1,0 +1,42 @@
+package app;
+
+import java.util.Scanner;
+
+public class Aula05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final int tam=5; // declaração de uma constante do tipo int
+		
+		int[] numero = new int[tam];
+		
+		
+		
+		System.out.println("******* Vetor de Array *****");
+		
+		numero[0] = 1;
+		numero[1] = 3;
+		numero[2] = 5;
+		numero[3] = 7;
+		numero[4] = 9;
+		
+		for (int i = 0; i < tam; i++) {
+			
+			System.out.printf("\nValor: %d", numero[i]);
+			
+		}
+		
+		
+		for (int i = 0; i < numero.length; i++) {
+			
+			System.out.printf("\nValor: %d", numero[i]);
+			
+		}
+		
+		
+		
+
+	}
+
+}

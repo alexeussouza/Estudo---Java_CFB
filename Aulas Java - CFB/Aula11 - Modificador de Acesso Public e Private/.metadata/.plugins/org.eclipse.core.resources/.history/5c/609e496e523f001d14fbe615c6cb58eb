@@ -1,0 +1,29 @@
+package app;
+
+public class Jogador {
+	
+	public int n=0;
+	private int cont=0;
+	
+	
+	public int getCont() {
+		return cont;
+	}
+
+
+	public void setCont(int cont) {
+		this.cont = cont;
+	}
+
+	public Jogador() {
+		
+		System.out.printf("%n Jogador numero %d criado", n);
+
+	}
+	
+	public Jogador(int valor) {
+		
+		System.out.printf("\nValor do Jogador %d ", valor);
+
+	}
+}

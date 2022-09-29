@@ -1,0 +1,17 @@
+package app;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Jogador j1 = new Jogador(); // chama o construtor sem parametros
+		
+		Jogador j2 = new Jogador(112); // chamada do metodo por valor
+		
+		j2.setCont(1982); // acesso da propriedade privada pelo Set()
+			
+		System.out.printf("\nData: %d", j2.getCont()); // Impressão da propriedade privada pelo Get()
+		
+	}
+}

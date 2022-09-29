@@ -1,0 +1,43 @@
+package app;
+
+public class Titular extends Jogador {
+	
+	private int contrato;
+	private String time;
+	
+	public Titular() {
+		// TODO Auto-generated constructor stub
+		String texto = "\\n::....... Contrutor Classe Titular .......::\\n";
+		
+	}
+	
+	public Titular(int valor) {
+		// TODO Auto-generated constructor stub
+		
+		System.out.printf("\nNumero do Contrato do Titular: %d", valor);
+		
+	}
+	
+	public int getContrato() {
+		return contrato;
+	}
+	
+	public void setContrato(int contrato) {
+		this.contrato = contrato;
+	}
+	
+	public String getTime() {
+		return time;
+	}
+	
+	public void setTime(String time) {
+		this.time = time;
+	}
+	
+	public void calcularContrato(int valor) {
+		
+		contrato+= valor*10;
+		System.out.printf("\nValor Contrato: %d", contrato);
+	}
+
+}

@@ -1,0 +1,34 @@
+package app;
+
+import java.util.Date;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Jogador j1 = new Jogador(); // chama o construtor sem parametros
+		
+		Jogador j2 = new Jogador(112); // chamada do metodo por valor
+		
+		j2.setCont(1982); // acesso da propriedade privada Cont pelo Set()
+			
+		System.out.printf("\nCont Jogador: %d%n", j2.getCont()); // Impressão da propriedade privada Cont pelo Get()
+		
+		//Titular t1 = new Titular();
+		
+		Titular t2 = new Titular(100);
+		
+		t2.calcularContrato(5000);
+		
+		t2.setCont(250);
+		
+		Date dt = new Date();
+		
+		///System.out.print("\nData: ", t2.setData(dt.getDay())); // Impressão da propriedade privada Cont pelo Get()
+		
+		System.out.printf("\n", t2.getContrato()); // Impressão da propriedade privada Contrato pelo Get()
+		System.out.printf("\nCont Titular: %d%n", t2.getCont()); // Impressão da propriedade privada Cont pelo Get()
+		
+	}
+}

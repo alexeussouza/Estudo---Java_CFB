@@ -1,0 +1,47 @@
+package app;
+
+import java.sql.Date;
+
+public class Jogador {
+	
+	public int n=0;
+	private int cont=0;
+	protected Date data;
+	protected int salario;
+	
+	public Date getData() {
+		return data;
+	}
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+	
+	public int getSalario() {
+		return salario;
+	}
+
+	public void setSalario(int salario) {
+		this.salario = salario;
+	}
+
+	public Jogador() {
+		
+		System.out.printf("::...... Construtor da classe Jogador  .....::\n");
+
+	}
+	
+	public int getCont() {
+		return cont;
+	}
+	
+	public void setCont(int cont) {
+		this.cont = cont;
+	}
+
+	public Jogador(int n) {
+		
+		System.out.printf("%n Jogador numero %d criado", n);
+
+	}
+}

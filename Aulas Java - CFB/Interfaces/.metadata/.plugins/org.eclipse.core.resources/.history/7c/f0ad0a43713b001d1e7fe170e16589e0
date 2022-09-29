@@ -1,0 +1,25 @@
+package app;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Aluno aluno = new Aluno();
+		
+		aluno.setCpf(72268);
+		aluno.setEmail("alex@gmail.com");
+		aluno.setNome("Alexandre");
+		aluno.setSobrenome("Eustaquio");
+		aluno.setTelefone("61-99349-3435");
+		
+		System.out.println("\n\nDados do Aluno\n\n");
+		System.out.println("CPF: " +  aluno.getCpf());
+		System.out.println("Nome: " +  aluno.getNome());
+		System.out.println("Sobrenome: " +  aluno.getSobrenome());
+		System.out.println("Telefone: " +  aluno.getTelefone());
+		System.out.println("Email: " +  aluno.getEmail());
+
+	}
+
+}

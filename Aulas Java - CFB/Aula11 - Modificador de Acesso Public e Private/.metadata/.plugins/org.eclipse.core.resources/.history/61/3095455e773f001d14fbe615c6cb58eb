@@ -1,0 +1,52 @@
+package app;
+
+public class Pessoa {
+	
+	public String Nome;
+	public String Email;
+	public String Telefone;
+	public String Sexo;
+	
+	public String getNome() {
+		return Nome;
+	}
+	
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	
+	public String getEmail() {
+		return Email;
+	}
+	
+	public void setEmail(String email) {
+		Email = email;
+	}
+	
+	public String getTelefone() {
+		return Telefone;
+	}
+	
+	public void setTelefone(String telefone) {
+		Telefone = telefone;
+	}
+	
+	public String getSexo() {
+		return Sexo;
+	}
+	
+	public void setSexo(String sexo) {
+		Sexo = sexo;
+	}
+	
+	public void Info() {
+		
+		Pessoa p = new Pessoa();
+		
+		System.out.println("::......  Dados Cadastrais  .....::\n");
+		System.out.print("\nNome: "+ p.getNome() );
+		System.out.print("\nEmail: "+ p.getEmail());
+		System.out.print("\nTelefone: "+ p.getTelefone());
+		System.out.print("\nSexo: " + p.getSexo());
+	}
+}

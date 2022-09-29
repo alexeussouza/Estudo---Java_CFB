@@ -1,0 +1,8 @@
+package app.Modelo;
+
+public class Aluno extends Pessoa{
+	
+	int Matricula;
+	
+
+}

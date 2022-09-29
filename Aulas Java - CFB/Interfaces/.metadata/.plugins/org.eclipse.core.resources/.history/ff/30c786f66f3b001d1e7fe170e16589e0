@@ -1,0 +1,35 @@
+package app.Modelo;
+
+public class Professor {
+	
+	private String Matricula;
+	private int CargaHoraria;
+	private double salarioHora;
+	
+	public String getMatricula() {
+		return Matricula;
+	}
+	
+	public void setMatricula(String matricula) {
+		Matricula = matricula;
+	}
+	
+	public int getCargaHoraria() {
+		return CargaHoraria;
+	}
+	
+	public void setCargaHoraria(int cargaHoraria) {
+		CargaHoraria = cargaHoraria;
+	}
+	
+	public double getSalarioHora() {
+		return salarioHora;
+	}
+	
+	public void setSalarioHora(double salarioHora) {
+		this.salarioHora = salarioHora;
+	}
+	
+	
+
+}

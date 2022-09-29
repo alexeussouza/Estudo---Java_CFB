@@ -1,0 +1,41 @@
+package app;
+
+public class Principal {
+	
+	public static void Info() {
+		
+		Pessoa p = new Pessoa();
+		
+		System.out.println("::......  Dados Cadastrais  .....::\n");
+		System.out.printf("Nome: %s", p.Nome );
+		System.out.printf("Email: %s", p.Email);
+		System.out.printf("Telefone: %s", p.Telefone);
+		System.out.printf("Sexo: %s", p.Sexo);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		
+		Jogador j1 = new Jogador(); // chama o construtor sem parametros
+		
+		Jogador j2 = new Jogador(112); // chamada do metodo por valor
+		
+		j2.setCont(1982); // acesso da propriedade privada Cont pelo Set()
+			
+		System.out.printf("\nCont Jogador: %d\n\n", j2.getCont()); // Impressão da propriedade privada Cont pelo Get()
+		
+		Titular t1 = new Titular(100);
+		
+		t1.calcularContrato(5000);
+		
+		t1.setCont(250);
+		
+		System.out.printf("\nCont Titular: %d", t1.getCont()); // Impressão da propriedade privada Cont pelo Get()
+		
+	}
+}

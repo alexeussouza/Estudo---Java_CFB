@@ -1,0 +1,25 @@
+package app;
+
+import java.util.Arrays;
+
+public class Aula07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int[] num= {9,2,7,1,8,5,3,4,0,6};
+		
+		for (int n : num) {
+			System.out.printf("\n%d", n);
+		}
+		
+		System.out.println("\n\n");
+		
+		Arrays.sort(num); // metodo para ordenação de elementos de um array
+		
+		for (int n : num) {
+			System.out.printf("\n%d", n);
+		}
+	}
+}

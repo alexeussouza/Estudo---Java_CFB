@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Alexandre\Documents\GitHub\Estudo - Java\Aulas Java - CFB\Aula11 - Modificador de Acesso Public e Private\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+591987951.index

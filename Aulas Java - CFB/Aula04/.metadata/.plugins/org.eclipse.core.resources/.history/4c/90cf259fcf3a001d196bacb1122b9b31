@@ -1,0 +1,34 @@
+package app;
+
+import java.util.Iterator;
+
+public class Aula05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int cont=0;
+		
+		
+		for (int i = 0; i < args.length; i++) {
+			
+			
+			
+			
+		}
+		
+		while(cont < 10) {
+			System.out.println("Java");
+			cont++;
+		}
+
+		cont=0;
+		do {
+			System.out.println("Phyton");
+			cont++;
+
+		} while (cont < 10);
+
+	}
+
+}

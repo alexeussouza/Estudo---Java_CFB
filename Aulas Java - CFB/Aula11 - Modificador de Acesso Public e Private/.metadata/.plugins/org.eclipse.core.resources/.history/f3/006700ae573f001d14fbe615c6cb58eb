@@ -1,0 +1,30 @@
+package app;
+
+public class Titular extends Jogador {
+	
+	private int contrato;
+	private String time;
+	
+	public int getContrato() {
+		return contrato;
+	}
+	
+	public void setContrato(int contrato) {
+		this.contrato = contrato;
+	}
+	
+	public String getTime() {
+		return time;
+	}
+	
+	public void setTime(String time) {
+		this.time = time;
+	}
+	
+	public void calcularContrato(int valor) {
+		
+		contrato+=0.5;
+		System.out.printf("Valor Contrato: %d", contrato);
+	}
+
+}
