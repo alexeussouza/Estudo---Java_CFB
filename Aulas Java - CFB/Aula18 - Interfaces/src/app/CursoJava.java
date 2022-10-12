@@ -6,9 +6,12 @@ public class CursoJava {
 		// TODO Auto-generated method stub
 		
 		
-		Animal n1 = new Animal();
+		//Animal n1 = new Animal();
 		
-		n1.info();
+		//n1.info();
+		
+		Formiga f1 = new Formiga();
+		f1.info();
 		
 		
 	}

@@ -1,31 +1,13 @@
 package app;
 
-public class Animal implements SerVivo {
+// classe abstract não pode ser instanciada, serve apenas pawra ser herdada
+abstract class Animal implements SerVivo {
 
-	public boolean  vivo;
 	
+    public void mover() {};
 	
-	public Animal() {
-		// TODO Auto-generated constructor stub
-		this.vivo = true;
-	}
+	public void comer(int massa) {};
 	
-	@Override
-	public void mover() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void comer(int massa) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void info() {
-		// TODO Auto-generated method stub
-		System.out.printf("Vivo...........: %s", this.vivo ? "Sim" : "Não");
-	}
+	public void info() {};
 
 }
